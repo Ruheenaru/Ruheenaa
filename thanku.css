@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: rgb(0, 0, 0);
+  background: #fff;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image:  url("images/b.jpg");
+}
+
+/**************************Navigation Bar********************/
+nav{
+  margin-top: 0;
+  position: fixed;
+  background: #000000;
+  width: 100%;
+  padding-top:  0;
+  z-index: 12;
+  
+}
+nav .menu{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo img{
+  height:50px;
+  margin: 0;
+  padding: 0;
+}
+.menu .logo a{
+  text-decoration: none;
+  background: -webkit-linear-gradient(right, orange , yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu .logo a:hover{
+  background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-text-fill-color: transparent;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: linear-gradient( to bottom left , orange , yellow, cyan,  violet);
+  color: black;
+}
+
+
+/***********************thank you***********************/
+
+.p{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(4, 138, 138);
+    padding-top: 250px; 
+    padding-bottom: 200px;
+    
+}
+
+.p input{
+  width: 70px;
+  height: 30px;
+  background-image:linear-gradient(rgba(0, 128, 128, 0.486),rgba(255, 192, 203, 0.486));
+  border: 1px solid black;
+  border-radius: 10px 0 10px 0;
+  font-weight: 700;
+}
+
+.p input:hover{
+  background-image:linear-gradient(rgba(255, 192, 203, 0.486),rgba(0, 128, 128, 0.486));
+}
+
+
+ /*******************footer*********************/
+ .footer {
+  background-color: black;
+  padding: 50Px;
+box-sizing: border-box;
+}
+.footer a{
+text-decoration: none;
+}
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer a::after, ::before {
+box-sizing: border-box;
+}
+.footer .container_footer {
+max-width: 100%;
+margin: auto;
+}
+.footer .row {
+display: flex;
+flex-wrap: wrap;
+}
+.footer-col {
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4 {
+font-size: 18px;
+margin-bottom: 30px;
+font-weight: 500;
+position: relative;
+color: white;
+margin: 1px;
+}
+.footer .social-icons {
+display: flex;
+margin-top: 0.5rem;
+}
+.footer .social-icons a {
+width: 35px;
+height: 35px;
+border-radius: 5px;
+background: linear-gradient(45deg, #1aa4bc, #00c1fc);
+color: #fff;
+text-align: center;
+line-height: 35px;
+margin-right: 0.5rem;
+transition: 0.3s;
+}
+.footer .social-icons a:hover {
+transform: scale(1.15);
+background: rgb(0, 174, 255);
+}
+.footer ul {
+list-style: none;
+}
+.footer li {
+list-style: none;
+}
+.footer .footer-col ul li a {
+font-size: 16px;
+transition: all 0.3s ease;
+font-weight: 300;
+display: block;
+color: thistle;
+}
+.footer .f1 a:hover{
+background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+-webkit-text-fill-color: transparent;
+}  
+/*********************Whats App************************/
+.whatsapp .float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:70px;
+right:40px;
+background-color:#25d366;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+font-size:30px;
+box-shadow: 2px 2px 3px rgb(159, 248, 174);
+z-index:100;
+text-decoration: none;
+}
+.whatsapp .float:hover{
+  background-color: #25d366;
+  color: black;
+}
+.whatsapp .my-float{
+margin-top:16px;
+}
+.whatsapp p{
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: -webkit-linear-gradient(blue,rgb(132, 130, 238), orange);
+  -webkit-text-fill-color: transparent;
+  padding-top:15px;
+}   
+ 

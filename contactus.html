@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+  
+<!--------------------------Navigation Bar----------------------------->
+
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html"> <img src="photos/m4y_logo.jpeg" height="500px"; width="200px" ></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--------------------------Contact Form------------------------------->
+    <section class="contact">
+<!--------------------------Left Container----------------------------->
+        <div class="container">
+            <div class="contactInfo"><br><br>
+             
+                <h2>At Your Service</h2><br>
+                <p>We Would Love To Hear <br>From You On Your Query</p><br>
+                <p>Contact Us with</p>
+           
+                <div class="box">
+                    <div class="icon"><a href="https://www.whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>                       <!---Whatsapp Logo--->
+               
+                    <div class="icon"><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></div>              <!---Facebook Logo--->
+                
+                    <div class="icon"><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>                      <!---Instagram Logo--->
+                </div>
+            </div>
+<!--------------------------Contact Form----------------------------->            
+            <div class="contactForm">
+                <form action="thanku.html"  autocomplete="off">
+                    <h2>Contact Us</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Your Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="number" minlength="10" maxlength="10" required="required">
+                        <span>Your Number</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Your E-mail ID</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea cols="20" rows="5" name="message" required="required"></textarea>
+                        <span>Message</span>
+                    </div>
+                    <div class="inputBox">
+                     <input type="submit" name="submit" value="Send" class="button" onclick="thanku.html">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<!-----------------------------Footer--------------------------------->
+
+<footer class="footer">
+  <div class="containerf">
+    <div class="row">
+      <div class="footer-col">
+        <div class="f1">
+        <h4>COMPANY</h4><br>
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#development">Services</a></li>
+          <li><a href="#consultancy">Consultancy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+              </div>
+              <div class="footer-col">
+                <div class="f1">
+                <h4>Need help?</h4><br>
+                <ul>
+                  <li><a href="contactus.html">support</a></li>
+                  <li><a href="contactus.html">FAQ's</a></li>
+                  <li><a href="contactus.html">feedback</a></li>
+                  <li><a href="contactus.html">Contact</a></li>
+                </ul></div>
+                      </div>
+                      <div class="footer-col">
+                        <h4>CONNECT WITH US</h4><br>
+                       <div class="social-icons">
+                        <a href="https://www.facebook.com/Origin"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+                        <a href="https://www.instagram.com/originpc/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>               
+                        <a href="https://www.linkedin.com/company/origindigital"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/origininsider"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                       </div>
+                      </div>
+                      <div class="footer-col">
+                        <h4>Contact Info:</h4><br>
+                        <div class="fextra" style="font-size: 12px;"><a href="mailto: abc@gmail.com">
+                        <i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;</i>abc@gmail.com</a><br><br>&nbsp;<a href="#"><i class="fa fa-phone-square" aria-hidden="true">&nbsp;&nbsp;</i>1800-0987-1234</a>
+                      </div>
+          </div>
+</footer>
+<!-------------------WhatsApp----------------->
+<div class="whatsapp">
+  <a href="https://api.whatsapp.com/send?phone=91123456789&text=Hello this is the starting message" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  <p>Chat With Us</p>
+  </a>
+  </div>
+</body>
+</html>
+
